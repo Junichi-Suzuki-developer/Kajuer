@@ -86,6 +86,8 @@ label_answer: 9 7 false
 
 This infomration can help visualize the recognition accuracy progress.
 
+<img width="1920" height="1440" alt="accuracy_history" src="https://github.com/user-attachments/assets/2e783e28-c2e3-4c57-bdc7-834b68cf5fb7" />
+
 ## spike_records
 ### training_spike_record.txt.*
 This contains the spike information during the training phase.
@@ -96,11 +98,13 @@ For example, it will contain such like below many times.
 108 55
 ```
 
-This infomration can help visualize the spike history.
-
 - "108" is the simulation time elapsed in milliseconds.
 
 - "55" is the spiked output neuron index.
+
+This infomration can help visualize the spike history.
+
+<img width="1920" height="1440" alt="raster training_spike_record txt 44967" src="https://github.com/user-attachments/assets/9d2405ae-d3f0-4cf6-80e9-3f2d6fe264d0" />
 
 ### validation_spike_record.txt.*
 This contains the spike information during the validation phase.
@@ -114,3 +118,5 @@ This contains the raw weight values, binary format, of Simulations' output neuro
 For example, "weight_map.bin.50000" will contain the weight map when the simulation time elapsed in 50000 milliseconds.
 
 This information can help visualize the weight change history.
+
+<img width="3000" height="3000" alt="test 48" src="https://github.com/user-attachments/assets/f32daf59-43b3-44e2-a30c-8d942d026ad5" />
